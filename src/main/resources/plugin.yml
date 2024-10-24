@@ -1,0 +1,4 @@
+name: Skulkers
+version: '0.0.1'
+main: com.ppfs.skulkers.ShulkersPlugin
+api-version: '1.21'
