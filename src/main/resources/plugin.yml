@@ -1,4 +1,9 @@
-name: Skulkers
-version: '0.0.1'
-main: com.ppfs.skulkers.ShulkersPlugin
+name: Shulkers
+version: '0.0.2'
+main: com.ppfs.shulkers.ShulkersPlugin
 api-version: '1.21'
+load: POSTWORLD
+depend:
+  - LuckPerms
+  - WorldEdit
+  - WorldGuard

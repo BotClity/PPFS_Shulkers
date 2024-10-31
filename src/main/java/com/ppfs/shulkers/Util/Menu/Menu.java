@@ -1,9 +1,9 @@
-package com.ppfs.skulkers.Util.Menu;
+package com.ppfs.shulkers.Util.Menu;
 
-import com.ppfs.skulkers.Util.Menu.Events.Menu.MenuOnClick;
-import com.ppfs.skulkers.Util.Menu.Events.Menu.MenuOnClose;
-import com.ppfs.skulkers.Util.Menu.Events.Menu.MenuOnDrop;
-import com.ppfs.skulkers.Util.Menu.Slots.MenuSlot;
+import com.ppfs.shulkers.Util.Menu.Events.Menu.MenuOnClick;
+import com.ppfs.shulkers.Util.Menu.Events.Menu.MenuOnClose;
+import com.ppfs.shulkers.Util.Menu.Events.Menu.MenuOnDrop;
+import com.ppfs.shulkers.Util.Menu.Slots.MenuSlot;
 import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.Bukkit;

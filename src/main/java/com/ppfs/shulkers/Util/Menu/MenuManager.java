@@ -1,11 +1,11 @@
-package com.ppfs.skulkers.Util.Menu;
+package com.ppfs.shulkers.Util.Menu;
 
-import com.ppfs.skulkers.ShulkersPlugin;
-import com.ppfs.skulkers.Util.Menu.Events.Menu.MenuOnClick;
-import com.ppfs.skulkers.Util.Menu.Events.Menu.MenuOnClose;
-import com.ppfs.skulkers.Util.Menu.Events.Menu.MenuOnDrop;
-import com.ppfs.skulkers.Util.Menu.Events.Slot.SlotListener;
-import com.ppfs.skulkers.Util.Menu.Slots.MenuSlot;
+import com.ppfs.shulkers.ShulkersPlugin;
+import com.ppfs.shulkers.Util.Menu.Events.Menu.MenuOnClick;
+import com.ppfs.shulkers.Util.Menu.Events.Menu.MenuOnClose;
+import com.ppfs.shulkers.Util.Menu.Events.Menu.MenuOnDrop;
+import com.ppfs.shulkers.Util.Menu.Events.Slot.SlotListener;
+import com.ppfs.shulkers.Util.Menu.Slots.MenuSlot;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.Player;

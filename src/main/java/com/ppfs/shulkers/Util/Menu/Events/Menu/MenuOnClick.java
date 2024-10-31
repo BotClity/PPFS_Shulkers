@@ -1,17 +1,18 @@
-package com.ppfs.skulkers.Util.Menu.Events.Menu;
+package com.ppfs.shulkers.Util.Menu.Events.Menu;
 
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryView;
 
-public interface MenuOnInteract {
+public interface MenuOnClick {
     boolean run(Action action);
 
     record Action(
             InventoryView view,
             HumanEntity player,
             Inventory clicked,
-            int slot
+            int slot,
+            int hotbar
             ){
     }
 }

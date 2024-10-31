@@ -1,4 +1,4 @@
-package com.ppfs.skulkers.Util.Menu.Slots;
+package com.ppfs.shulkers.Util.Menu.Slots;
 
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;

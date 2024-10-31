@@ -1,9 +1,8 @@
-package com.ppfs.skulkers.Service;
+package com.ppfs.shulkers.Service;
 
-import com.ppfs.skulkers.Model.Shulker;
-import com.ppfs.skulkers.Util.Menu.Menu;
+import com.ppfs.shulkers.Model.Shulker;
+import com.ppfs.shulkers.Util.Menu.Menu;
 import net.kyori.adventure.text.TextComponent;
-import org.bukkit.Bukkit;
 import org.bukkit.Sound;
 import org.bukkit.block.ShulkerBox;
 import org.bukkit.entity.Player;

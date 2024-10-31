@@ -1,6 +1,6 @@
-package com.ppfs.skulkers.Util.Menu.Slots;
+package com.ppfs.shulkers.Util.Menu.Slots;
 
-import com.ppfs.skulkers.Util.Menu.Events.Slot.SlotListener;
+import com.ppfs.shulkers.Util.Menu.Events.Slot.SlotListener;
 import lombok.Getter;
 import lombok.Setter;
 import net.kyori.adventure.text.Component;

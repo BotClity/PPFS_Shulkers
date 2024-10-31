@@ -1,7 +1,8 @@
-package com.ppfs.skulkers.Listener;
+package com.ppfs.shulkers.Listener;
 
-import com.ppfs.skulkers.Model.Shulker;
-import com.ppfs.skulkers.Service.ShulkerService;
+import com.ppfs.shulkers.Model.Shulker;
+import com.ppfs.shulkers.Service.ShulkerService;
+import com.ppfs.shulkers.ShulkersPlugin;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -11,7 +12,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import static com.ppfs.skulkers.Service.ShulkerService.isShulker;
+import static com.ppfs.shulkers.Service.ShulkerService.isShulker;
 
 public class ClickListener implements Listener {
     @EventHandler
@@ -23,6 +24,8 @@ public class ClickListener implements Listener {
         if (!isShulker(item))return;
         int slot = getSlot(item, player.getInventory());
         if (slot == -1) return;
+        if (!ShulkersPlugin.getInstance().hasFlag(player)) return;
+        if (!player.hasPermission("shulkers.open")) return;
         ShulkerService.getInstance().openPlayerShulker(new Shulker(player, slot, item));
     }
 

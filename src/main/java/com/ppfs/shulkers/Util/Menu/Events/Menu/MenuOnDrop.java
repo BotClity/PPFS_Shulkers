@@ -1,4 +1,4 @@
-package com.ppfs.skulkers.Util.Menu.Events.Menu;
+package com.ppfs.shulkers.Util.Menu.Events.Menu;
 
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;

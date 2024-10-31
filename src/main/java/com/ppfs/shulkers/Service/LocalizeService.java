@@ -1,8 +1,8 @@
-package com.ppfs.skulkers.Service;
+package com.ppfs.shulkers.Service;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.ppfs.skulkers.ShulkersPlugin;
+import com.ppfs.shulkers.ShulkersPlugin;
 
 import java.io.File;
 import java.io.FileNotFoundException;

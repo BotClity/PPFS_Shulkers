@@ -1,4 +1,4 @@
-package com.ppfs.skulkers.Util.Menu.Events.Slot;
+package com.ppfs.shulkers.Util.Menu.Events.Slot;
 
 import org.bukkit.entity.Player;
 
